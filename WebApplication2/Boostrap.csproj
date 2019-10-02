@@ -67,12 +67,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="boostrap\Ejemplo 1.aspx" />
+    <Content Include="boostrap\Ejemplo2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="boostrap\Ejemplo2.aspx.cs">
+      <DependentUpon>Ejemplo2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo2.aspx.designer.cs">
+      <DependentUpon>Ejemplo2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo 1.aspx.cs">
+      <DependentUpon>Ejemplo 1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo 1.aspx.designer.cs">
+      <DependentUpon>Ejemplo 1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="boostrap\Site.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
