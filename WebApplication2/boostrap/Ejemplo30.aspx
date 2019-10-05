@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/boostrap/Site.Master" AutoEventWireup="true" CodeBehind="Ejemplo2.aspx.cs" Inherits="WebApplication2.boostrap.Ejemplo2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/boostrap/Site.Master" AutoEventWireup="true" CodeBehind="Ejemplo30.aspx.cs" Inherits="WebApplication2.boostrap.Ejemplo30" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<!DOCTYPE html>
-<html >
+	<!DOCTYPE html>
+<html lang="en">
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -14,13 +14,21 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  
+ 
 <div class="container">
-  <h1>My Pagina en proceso</h1>
-  <p>esta sera mi pagina cuando encuentre un contexto le añado contenido </p> 
-  <p>aqui estamos trabajando container</p>           
+  <h2>ejemplo de card</h2>
+  <p>Veremos la magia:</p>
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Juan Perez</h4>
+      <p class="card-text">Agrimensor</p>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+  </div>
 </div>
 
 </body>
 </html>
+
 </asp:Content>

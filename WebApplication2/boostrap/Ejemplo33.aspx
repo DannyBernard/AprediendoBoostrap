@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/boostrap/Site.Master" AutoEventWireup="true" CodeBehind="Ejemplo2.aspx.cs" Inherits="WebApplication2.boostrap.Ejemplo2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/boostrap/Site.Master" AutoEventWireup="true" CodeBehind="Ejemplo33.aspx.cs" Inherits="WebApplication2.boostrap.Ejemplo33" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<!DOCTYPE html>
-<html >
+	<!DOCTYPE html>
+<html lang="en">
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -14,13 +14,27 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  
+
 <div class="container">
-  <h1>My Pagina en proceso</h1>
-  <p>esta sera mi pagina cuando encuentre un contexto le añado contenido </p> 
-  <p>aqui estamos trabajando container</p>           
+  <h2>Píldoras de navegación</h2>
+  <p>pildolras</p>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
 </div>
 
 </body>
 </html>
+
 </asp:Content>

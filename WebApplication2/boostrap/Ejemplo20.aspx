@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/boostrap/Site.Master" AutoEventWireup="true" CodeBehind="Ejemplo2.aspx.cs" Inherits="WebApplication2.boostrap.Ejemplo2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/boostrap/Site.Master" AutoEventWireup="true" CodeBehind="Ejemplo20.aspx.cs" Inherits="WebApplication2.boostrap.Ejemplo20" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<!DOCTYPE html>
-<html >
+	<!DOCTYPE html>
+<html lang="en">
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -14,11 +14,17 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  
+
 <div class="container">
-  <h1>My Pagina en proceso</h1>
-  <p>esta sera mi pagina cuando encuentre un contexto le añado contenido </p> 
-  <p>aqui estamos trabajando container</p>           
+  <h2>grupo de botones vertical</h2>
+  <p>veremos el uso de goup botones:</p>
+  <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+    <button type="button" class="btn btn-primary">Xiaomi</button>
+    <button type="button" class="btn btn-primary">Hawei</button>
+  </div>
 </div>
 
 </body>

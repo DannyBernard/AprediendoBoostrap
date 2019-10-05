@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/boostrap/Site.Master" AutoEventWireup="true" CodeBehind="Ejemplo2.aspx.cs" Inherits="WebApplication2.boostrap.Ejemplo2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/boostrap/Site.Master" AutoEventWireup="true" CodeBehind="Ejemplo4.aspx.cs" Inherits="WebApplication2.boostrap.Ejemplo4" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<!DOCTYPE html>
-<html >
+	<!DOCTYPE html>
+<html lang="en">
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -14,13 +14,20 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  
-<div class="container">
-  <h1>My Pagina en proceso</h1>
-  <p>esta sera mi pagina cuando encuentre un contexto le añado contenido </p> 
-  <p>aqui estamos trabajando container</p>           
+
+<div class="container-fluid">
+  <h1>Mi columnas con bootstrap</h1>
+  <p>estan bien chulas</p>
+  <p>nitidooo!!!!</p>
+  <div class="row">
+    <div class="col-sm-3" style="background-color:lavender;">Nombre</div>
+    <div class="col-sm-3" style="background-color:lavenderblush;">Apellido</div>
+    <div class="col-sm-3" style="background-color:lavender;">Direccion</div>
+    <div class="col-sm-3" style="background-color:lavenderblush;">Edad</div>
+  </div>
 </div>
 
 </body>
 </html>
+
 </asp:Content>

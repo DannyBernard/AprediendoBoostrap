@@ -68,16 +68,280 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="boostrap\Ejemplo 1.aspx" />
+    <Content Include="boostrap\Ejemplo10.aspx" />
+    <Content Include="boostrap\Ejemplo11.aspx" />
+    <Content Include="boostrap\Ejemplo12.aspx" />
+    <Content Include="boostrap\Ejemplo13.aspx" />
+    <Content Include="boostrap\Ejemplo14.aspx" />
+    <Content Include="boostrap\Ejemplo15.aspx" />
+    <Content Include="boostrap\Ejemplo16.aspx" />
+    <Content Include="boostrap\Ejemplo17.aspx" />
+    <Content Include="boostrap\Ejemplo18.aspx" />
+    <Content Include="boostrap\Ejemplo19.aspx" />
     <Content Include="boostrap\Ejemplo2.aspx" />
+    <Content Include="boostrap\Ejemplo20.aspx" />
+    <Content Include="boostrap\Ejemplo21.aspx" />
+    <Content Include="boostrap\Ejemplo22.aspx" />
+    <Content Include="boostrap\Ejemplo23.aspx" />
+    <Content Include="boostrap\Ejemplo24.aspx" />
+    <Content Include="boostrap\Ejemplo25.aspx" />
+    <Content Include="boostrap\Ejemplo26.aspx" />
+    <Content Include="boostrap\Ejemplo27.aspx" />
+    <Content Include="boostrap\Ejemplo28.aspx" />
+    <Content Include="boostrap\Ejemplo29.aspx" />
+    <Content Include="boostrap\Ejemplo3.aspx" />
+    <Content Include="boostrap\Ejemplo30.aspx" />
+    <Content Include="boostrap\Ejemplo31.aspx" />
+    <Content Include="boostrap\Ejemplo32.aspx" />
+    <Content Include="boostrap\Ejemplo33.aspx" />
+    <Content Include="boostrap\Ejemplo34.aspx" />
+    <Content Include="boostrap\Ejemplo35.aspx" />
+    <Content Include="boostrap\Ejemplo4.aspx" />
+    <Content Include="boostrap\Ejemplo5.aspx" />
+    <Content Include="boostrap\Ejemplo6.aspx" />
+    <Content Include="boostrap\Ejemplo7.aspx" />
+    <Content Include="boostrap\Ejemplo8.aspx" />
+    <Content Include="boostrap\Ejemplo9.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="boostrap\Ejemplo10.aspx.cs">
+      <DependentUpon>Ejemplo10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo10.aspx.designer.cs">
+      <DependentUpon>Ejemplo10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo11.aspx.cs">
+      <DependentUpon>Ejemplo11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo11.aspx.designer.cs">
+      <DependentUpon>Ejemplo11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo12.aspx.cs">
+      <DependentUpon>Ejemplo12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo12.aspx.designer.cs">
+      <DependentUpon>Ejemplo12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo13.aspx.cs">
+      <DependentUpon>Ejemplo13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo13.aspx.designer.cs">
+      <DependentUpon>Ejemplo13.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo14.aspx.cs">
+      <DependentUpon>Ejemplo14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo14.aspx.designer.cs">
+      <DependentUpon>Ejemplo14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo15.aspx.cs">
+      <DependentUpon>Ejemplo15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo15.aspx.designer.cs">
+      <DependentUpon>Ejemplo15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo16.aspx.cs">
+      <DependentUpon>Ejemplo16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo16.aspx.designer.cs">
+      <DependentUpon>Ejemplo16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo17.aspx.cs">
+      <DependentUpon>Ejemplo17.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo17.aspx.designer.cs">
+      <DependentUpon>Ejemplo17.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo18.aspx.cs">
+      <DependentUpon>Ejemplo18.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo18.aspx.designer.cs">
+      <DependentUpon>Ejemplo18.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo19.aspx.cs">
+      <DependentUpon>Ejemplo19.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo19.aspx.designer.cs">
+      <DependentUpon>Ejemplo19.aspx</DependentUpon>
+    </Compile>
     <Compile Include="boostrap\Ejemplo2.aspx.cs">
       <DependentUpon>Ejemplo2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="boostrap\Ejemplo2.aspx.designer.cs">
       <DependentUpon>Ejemplo2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo20.aspx.cs">
+      <DependentUpon>Ejemplo20.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo20.aspx.designer.cs">
+      <DependentUpon>Ejemplo20.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo21.aspx.cs">
+      <DependentUpon>Ejemplo21.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo21.aspx.designer.cs">
+      <DependentUpon>Ejemplo21.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo22.aspx.cs">
+      <DependentUpon>Ejemplo22.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo22.aspx.designer.cs">
+      <DependentUpon>Ejemplo22.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo23.aspx.cs">
+      <DependentUpon>Ejemplo23.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo23.aspx.designer.cs">
+      <DependentUpon>Ejemplo23.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo24.aspx.cs">
+      <DependentUpon>Ejemplo24.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo24.aspx.designer.cs">
+      <DependentUpon>Ejemplo24.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo25.aspx.cs">
+      <DependentUpon>Ejemplo25.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo25.aspx.designer.cs">
+      <DependentUpon>Ejemplo25.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo26.aspx.cs">
+      <DependentUpon>Ejemplo26.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo26.aspx.designer.cs">
+      <DependentUpon>Ejemplo26.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo27.aspx.cs">
+      <DependentUpon>Ejemplo27.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo27.aspx.designer.cs">
+      <DependentUpon>Ejemplo27.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo28.aspx.cs">
+      <DependentUpon>Ejemplo28.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo28.aspx.designer.cs">
+      <DependentUpon>Ejemplo28.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo29.aspx.cs">
+      <DependentUpon>Ejemplo29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo29.aspx.designer.cs">
+      <DependentUpon>Ejemplo29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo3.aspx.cs">
+      <DependentUpon>Ejemplo3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo3.aspx.designer.cs">
+      <DependentUpon>Ejemplo3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo30.aspx.cs">
+      <DependentUpon>Ejemplo30.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo30.aspx.designer.cs">
+      <DependentUpon>Ejemplo30.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo31.aspx.cs">
+      <DependentUpon>Ejemplo31.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo31.aspx.designer.cs">
+      <DependentUpon>Ejemplo31.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo32.aspx.cs">
+      <DependentUpon>Ejemplo32.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo32.aspx.designer.cs">
+      <DependentUpon>Ejemplo32.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo33.aspx.cs">
+      <DependentUpon>Ejemplo33.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo33.aspx.designer.cs">
+      <DependentUpon>Ejemplo33.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo34.aspx.cs">
+      <DependentUpon>Ejemplo34.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo34.aspx.designer.cs">
+      <DependentUpon>Ejemplo34.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo35.aspx.cs">
+      <DependentUpon>Ejemplo35.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo35.aspx.designer.cs">
+      <DependentUpon>Ejemplo35.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo4.aspx.cs">
+      <DependentUpon>Ejemplo4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo4.aspx.designer.cs">
+      <DependentUpon>Ejemplo4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo5.aspx.cs">
+      <DependentUpon>Ejemplo5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo5.aspx.designer.cs">
+      <DependentUpon>Ejemplo5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo6.aspx.cs">
+      <DependentUpon>Ejemplo6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo6.aspx.designer.cs">
+      <DependentUpon>Ejemplo6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo7.aspx.cs">
+      <DependentUpon>Ejemplo7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo7.aspx.designer.cs">
+      <DependentUpon>Ejemplo7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo8.aspx.cs">
+      <DependentUpon>Ejemplo8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo8.aspx.designer.cs">
+      <DependentUpon>Ejemplo8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo9.aspx.cs">
+      <DependentUpon>Ejemplo9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boostrap\Ejemplo9.aspx.designer.cs">
+      <DependentUpon>Ejemplo9.aspx</DependentUpon>
     </Compile>
     <Compile Include="boostrap\Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
